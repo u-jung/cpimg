@@ -4,6 +4,6 @@ A command line tool, which should help to copy JPEG files from a source (whit su
 
 # How to use #
 
-    python3 cpimg *source* *destination*
+    python cpimg  source destination
 
 
