@@ -12,9 +12,9 @@ The result directory structure will be like this:
 <pre>
 ├── 2020
 │   ├── 02
-│       └── 28
-│           ├── foo.jpg
-│           └── bar.jpg
+│   │    └── 28
+│   │        ├── foo.jpg
+│   │        └── bar.jpg
 │   └── 03
 ├── 2021
 │   ├── 01
