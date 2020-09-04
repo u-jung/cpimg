@@ -9,6 +9,7 @@ A command line tool, which should help to copy JPEG files from a source (whit su
 
 The result directory structure will be like this:
 
+'''
 ├── 2020
 │   ├── 02
 │       └── 28
@@ -19,4 +20,4 @@ The result directory structure will be like this:
 │   ├── 01
 │   ├── 02
 │   └── 03
-
+'''
