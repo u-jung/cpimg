@@ -34,7 +34,7 @@ def main(args):
 	if len(sys.argv)!=3:
 		print ("Please enter the command as follows: cpimg source_dir dest_dir")
 		print ("Use absolute paths")
-		print ("This is not working with < Python 3")
+		print ("This is not working with  Python < version 3.3")
 		return 1
 	
 	base_dir = sys.argv[2]
