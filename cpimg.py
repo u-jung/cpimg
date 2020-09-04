@@ -5,7 +5,7 @@ from PIL import Image
 import sys
 import re
 
-def get_date(file_name):
+def get_date(file_name: str) -> Tuple[str, str, str]:
 	"""Get picture date from EXIF data."""
 	#print(file_name)
 	try:
@@ -20,12 +20,12 @@ def get_date(file_name):
 		print ("This ist not a jpg file!")
 		return ("1970","01","01")
 
-def get_images_files(source_dir):
-	l=[]
+def get_images_files(source_dir: str) -> List[]:
+	list_=[]
 	for root, dirs, files in os.walk(source_dir, topdown=False):
 		for f in files:
-			l.append(os.path.join(root,f))
-	return l
+			list_.append(os.path.join(root,f))
+	return list_
 
 # cpimg source_dir dest_dir_root
 
