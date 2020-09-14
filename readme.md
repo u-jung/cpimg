@@ -1,6 +1,6 @@
 # What is this? #
 
-A command line tool, which should help to copy JPEG files from a source (whit sub directories) into a date based directory structure usind the information from exif field 306.
+A command line tool, which should help to copy JPEG files from a source (whit sub directories) into a date based directory structure using the information from exif field 306.
 
 # How to use #
 
